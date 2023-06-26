@@ -21,8 +21,8 @@ jobs:
       with:
         go-version: 1.19
 
-    - name: Build
-      run: go build -v ./...
+    - name: Run
+      run: go run ./hello/hello.go
 
     - name: Test
       run: go test -v ./...
